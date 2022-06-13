@@ -21,7 +21,7 @@
  * @typedef {{ rss: { channel: { pubDate: string, item: RawItem[] } } }} RawRss
  */
 
-export const RSS_BASE_URL = 'https://vnexpress.net/rss'
+export const RSS_BASE_URL = 'https://hlu.edu.vn/News/GetAllNewsByZoneId?zoneid=zone2'
 
 /** @type {Entry[]} */
 export const RSS_ENTRIES = [
